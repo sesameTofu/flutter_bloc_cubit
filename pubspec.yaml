@@ -1,0 +1,36 @@
+name: flutter_counter
+description: A new Flutter project.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.0.2
+  flutter_bloc: ^8.0.1
+  equatable: ^2.0.3
+  retrofit: ^3.0.1+1
+  json_annotation: ^4.5.0
+  build_runner: ^2.1.10
+  retrofit_generator: ^3.0.1+1
+  json_serializable: ^6.2.0
+  get_it: ^7.2.0
+  dio: ^4.0.6
+  flutter_svg: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  bloc_test: ^9.0.2
+  mocktail: ^0.2.0
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
